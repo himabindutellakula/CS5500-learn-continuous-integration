@@ -41,7 +41,7 @@ if (process.env.NODE_ENV !== "test") {
 
     db.on('error', console.error.bind(console, 'MongoDB connection error:'));
     db.on('connected', () => {
-        console.log('Connected to database');
+        console.log('Connected to database - loacl MongoDB');
     });
 }
 
