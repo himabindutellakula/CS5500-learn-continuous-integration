@@ -7,7 +7,7 @@ on:
 
 jobs: 
   "setup-database":
-    runs-on: cs5500-self-hosted
+    runs-on: cs5500-self-hosted-hima
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
